@@ -1,0 +1,173 @@
+*{
+
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#form{
+    border: solid 1px;
+    width: 480px;
+    height: 700px;
+    text-align: justify ;
+    background-image: url("background.jpeg");
+    background-repeat:no-repeat ;
+    background-size:180% 180%;
+    
+    
+}
+#for{
+    position: relative;
+    left:10px;
+
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#sub{
+    position:relative;
+    left: 200px;
+    border:solid 2px ;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding:15px;
+    background-color:blue;
+    font-size: larger;
+    color:white;
+}
+#sub:hover{
+    background-color: red;
+    color: black;
+}
+#sub:active{
+    background-color: black;
+    color: gold;
+}
+#name,#regno,#date,#blood,#batch,#phone,#address{
+    height:30px;
+    width:250px;
+    font-size: 20px;
+}
+#d{
+    
+    text-align: center;
+    
+}
+#for>*{
+    margin-top:15px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#container{
+    display:none;
+    border:solid 2px;
+    margin-left: 50px;
+    width:480px;
+    height: 700px;
+    background-image: linear-gradient(yellow,white);
+
+}
+#sat{
+color: rgba(12, 12, 90, 0.991);
+letter-spacing: 8px;
+text-align: right;
+position: relative;
+bottom: 15px;
+right: 15px;
+}
+#icon{
+    width: 100px;
+    position: relative;
+    left:5px ;
+    bottom: 75px;
+    border: 2px solid;
+    border-radius: 55px;
+    
+}
+#ins{
+    position: relative;
+    bottom: 155px;
+    left: 130px;
+}
+#deem{
+    position: relative;
+    bottom: 170px;
+    left: 145px;
+    word-spacing: 5px;
+}
+#che{
+    position: relative;
+    bottom: 180px;
+    left: 220px;
+}
+#school{
+    color: rgba(189, 11, 11, 0.858);
+    position: relative;
+    bottom:130px ;
+    text-align: center;
+
+}
+#man{
+    position: relative;
+    bottom: 110px;
+    left: 160px;
+}
+#names{
+    position: relative;
+    bottom: 120px;
+    
+    letter-spacing:2px ;
+    text-align: center;
+}
+#reg{
+    font-size: 20px;
+    position: relative;
+    bottom: 65px;
+    left: 10px;
+    letter-spacing: 2px;
+    
+}
+#b{
+    font-size:20px ;
+    position: relative;
+    bottom: 120px;
+    left: 250px;
+    letter-spacing: 2px;
+}
+#bat{
+    font-size: 20px;
+    position: relative;
+    bottom: 220px;
+    left: 220px;
+    letter-spacing: 2px;
+}
+#dob{
+    font-size: 20px;
+    position: relative;
+    bottom: 160px;
+    left: 10px;
+    letter-spacing: 2px;
+}
+#pho{
+    font-size: 20px;
+    position: relative;
+    bottom: 255px;
+    left: 10px;
+    letter-spacing: 2px;
+}
+#add{
+    font-size: 20px;
+    position: relative;
+    bottom: 300px;
+    left: 10px;
+    letter-spacing: 2px;
+}
+#det{
+    font-weight: bold;
+}
+
+
